@@ -21,6 +21,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/BlogPage')
 
 app.listen(PORT,()=>{
     console.log("http://localhost:"+PORT);
-    console.log("Hii from console");
+    console.log(object);
 })
 })
