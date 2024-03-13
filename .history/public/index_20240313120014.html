@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blogs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">Add Blogs</a></li>
+            <li><a href="/getblogs">getblogs</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div>
+    <h1>Add Blog Form</h1>
+    <form action="/addblog" method="post">
+        <label for="name">Name:-</label>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="Class">Class:-</label>
+        <input type="text" name="Class" id="Class"><br>
+
+        Blog:--&nbsp; <textarea name="blog" id="blog" cols="20" rows="20"></textarea><br>
+
+        <button>Submit</button>
+
+    </form>
+</div>
+</body>
+
+</html>
